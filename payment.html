@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneaker Shoes Store</title>
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="stylesheet" href="./themify-icons-font/themify-icons/themify-icons.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img style="width: 100px;height:70px;" src="img/logo.png">
+        </div>
+        <div class="menu">
+            <li><a href="">GIÀY NIKE</a>
+                <ul class="sub1-menu">
+                    <li><a href="">Nike Jordan</a></li>
+                    <li><a href="">Air Force 1</a></li>
+                    <li><a href="">Air Max 97</a></li>
+                </ul>
+            </li>
+            <li><a href="">GIÀY ADIDAS</a>
+                <ul class="sub2-menu">
+                    <li><a href="">Ultra Boost</a></li>
+                    <li><a href="">Yezzy Boost</a></li>
+                    <li><a href="">Super Star</a></li>
+                </ul>
+            </li>
+            <li><a href="">VANS-CONVERSER</a></li>
+            <li><a href="">GIÀY MLB</a></li>
+            <li><a href="">FLASH SALE</a></li>
+            <li><a href="">VOUCHER</a></li>
+        </div>
+        <div class="other">
+            <li><input placeholder="Tìm sản phẩm" type="text"> <i class="ti-search"></i></li>
+            <li><i class="ti-shopping-cart"></i></li>
+            <li><button class="js-ti-marker-alt" style="width: 30px; height: 35px;"><i class="ti-user"></i></li></button>
+        </div>
+    </header>
+    <section class="payment">
+        <div class="container">
+            <div class="payment-top-wrap">
+                <div class="payment-top">
+                    <div class="payment-top-pay payment-top-item">
+                        <i class="ti-shopping-cart-full"></i>
+                    </div>
+                    <div class="payment-top-address payment-top-item">
+                        <i class="ti-location-pin"></i>
+                    </div>
+                    <div class="payment-top-payment payment-top-item">
+                        <i class="ti-money"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="padding-left: 20px;" class="container">
+            <div class="payment-content row">
+                <div class="payment-content-left">
+                    <div class="payment-content-left-method-delivery">
+                        <p style ="font-weight: bold;">Phương thức giao hàng</p>
+                        <div class="payment-content-left-method-delivery-item">
+                            <input checked type="radio">
+                            <label for="">Giao hàng chuyển phát nhanh</label>
+                        </div>
+                    </div>
+                    <div class="payment-content-left-method-payment">
+                        <p style ="font-weight: bold;">Phương thức thanh toán</p>
+                        <!-- <p>Mọi giao dịch đều được bảo mật và mã hóa. Thông tin thẻ tin dụng sẽ không bao giờ được lưu lại</p> -->
+                        <div class="payment-content-left-method-payment-item">
+                            <input name="method-payment" type="radio">
+                            <label for="">Thanh toán bằng thẻ tín dụng</label>
+                        </div>
+                        <div class="payment-content-left-method-payment-item-img">
+                            <img style="height: 200px; width: 200px;" src="./img/qr.jpg" alt="">
+                        </div>
+                        <!-- <div class="payment-content-left-method-payment-item-img">
+                            <img src="./img/visa.png" alt="">
+                            <img src="./img/mst.png" alt="">
+                        </div>
+                        <div class="payment-content-left-method-payment-item">
+                            <input checked name="method-payment" type="radio">
+                            <label for="">Thanh toán bằng thẻ ATM</label>
+                        </div>
+                        <div class="payment-content-left-method-payment-item-img">
+                            <img style="height: 50px; width: 100px;" src="./img/BIDV.jpg" alt="">
+                            <img style="height: 50px; width: 100px;" src="./img/Vnpay.jpg" alt="">
+                        </div>
+                        <div class="payment-content-left-method-payment-item">
+                            <input name="method-payment" type="radio">
+                            <label for="">Thanh toán bằng Momo</label>
+                        </div>
+                        <div class="payment-content-left-method-payment-item-img">
+                            <img style="height: 50px; width: 50px;" src="./img/Momo.jpg" alt="">
+                        </div> -->
+                        <div class="payment-content-left-method-payment-item">
+                            <input name="method-payment" type="radio">
+                            <label for="">Thanh toán khi nhận hàng</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="payment-content-right">
+                    <div class="payment-content-right-button">
+                        <input type="text" placeholder="Mã giảm giá/Quà tặng">
+                    <button><i class="ti-check"></i></button>
+                    </div>
+                    <div class="payment-content-right-mnv">
+                        <select name="" id="">
+                            <option value="">Chọn mã nhân viên thân thiết</option>
+                            <option value="">A</option>
+                            <option value="">B</option>
+                            <option value="">C</option>
+                            <option value="">D</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="payment-content-right-payment">
+                <button>TIẾP TỤC THANH TOÁN</button>
+            </div>
+        </div>
+<div class="modal">
+    <div class="modal-container">
+             <p>Cảm ơn bạn đã tin tưởng và mua sắm tại Sneaker Shoes Store !!!</p>
+             <p>Đơn hàng của bạn đang được xác nhận và sẽ chuyển tới bạn trong vài ngày </p>
+             <button>TIẾP TỤC MUA SẮM</button>
+    </div>
+</div>
+    </section>
+    <footer>
+        <div class="grid">
+            <div class="grid_row">
+                <div class="grid_col2-4">
+                    <h3 class="footer heading">Chăm sóc khách hàng</h3>
+                    <ul class="footer_list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item-link">Trung tâm trợ giúp</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item-link">Sneaker Store</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item-link">Hướng dẫn mua hàng</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid_col2-4">
+                    <h3 class="footer heading">Giới thiệu</h3>
+                    <ul class="footer_list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item-link">Giới thiệu về Sneaker Store</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item-link">Tuyển dụng</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item-link">Điều khoản</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid_col2-4">
+                    <h3 class="footer heading">Danh mục</h3>
+                    <ul class="footer_list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item-link">Giày NIKE</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item-link">Giày ADIDAS</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item-link">Giày MLB</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid_col2-4">
+                    <h3 class="footer heading">Theo dõi</h3>
+                    <ul class="footer_list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item-link">
+                                <i class="footer-item-icon ti-facebook"></i>
+                                Facebook</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="grid_col2-4">
+                    <h3 class="footer heading">Sneaker Store</h3>
+                    <div class="footer-down">
+                        <img src="./img/logo.png" alt="" class="footer-down-img">
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+    <div class="grid">
+        <p class="footer-text">2022-Bản quyền thuộc về HVKTMM</p>
+        </div>
+    </div>
+    </div>
+    </footer>
+    <script>
+        function tk(){
+            modal.classList.add('open')
+        }
+        const modal = document.querySelector('.modal')
+        const btnn = document.querySelector('.payment-content-right-payment')
+        btnn.addEventListener('click',tk)
+    </script>
